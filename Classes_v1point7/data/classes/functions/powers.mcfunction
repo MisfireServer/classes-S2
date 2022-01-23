@@ -1,0 +1,30 @@
+#fireborn
+clear @a[team=fireborn] tipped_arrow{display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Summon Fireball","color":"light_purple"},{"text":"]"}]'}} 1
+give @a[team=fireborn] tipped_arrow{Potion:"minecraft:healing",display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Summon Fireball","color":"light_purple"},{"text":"]"}]'}} 1
+clear @a[team=fireborn] flint_and_steel{Unbreakable:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Infinite Flint And Steel","color":"light_purple"},{"text":"]"}]'}} 1
+give @a[team=fireborn] flint_and_steel{Unbreakable:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Infinite Flint And Steel","color":"light_purple"},{"text":"]"}]'}} 1
+#earthborn
+clear @a[team=earthborn] minecraft:tipped_arrow{Potion:"minecraft:luck",display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Earth fangs arrow","color":"light_purple"},{"text":"]"}]'}}
+give @a[team=earthborn] minecraft:tipped_arrow{Potion:"minecraft:luck",display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Earth fangs arrow","color":"light_purple"},{"text":"]"}]'}}
+give @a[team=earthborn] minecraft:potato
+give @a[team=earthborn] minecraft:carrot
+#skyborn
+clear @a[team=Skyborn] minecraft:spectral_arrow
+give @a[team=Skyborn] spectral_arrow{display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Thunderbolt","color":"yellow"},{"text":"]"}]'}} 1
+item replace entity @a[team=Skyborn] armor.chest with elytra{display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Skyborn Wings","color":"yellow"},{"text":"]"}]'},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}]} 1
+clear @a[team=Skyborn] golden_sword{display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Angelic Blade","color":"yellow"},{"text":"]"}]'},Enchantments:[{id:sharpness,lvl:10}]} 1
+give @a[team=Skyborn] golden_sword{display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Angelic Blade","color":"yellow"},{"text":"]"}]'},Enchantments:[{id:sharpness,lvl:10}]} 1
+#ashborn
+clear @a[team=Ash2] glowstone_dust{display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Ash Muggle","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Hold this to","italic":false,"color":"yellow"}]','[{"text":"transform from","italic":false,"color":"yellow"}]','[{"text":"the Being of Ash","italic":false,"color":"yellow"}]','[{"text":"into an Ash Muggle","italic":false,"color":"yellow"}]']},Enchantments:[{id:"vanishing_curse",lvl:1}]} 1
+give @a[team=Ash2] glowstone_dust{display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Ash Muggle","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Hold this to","italic":false,"color":"yellow"}]','[{"text":"transform from","italic":false,"color":"yellow"}]','[{"text":"the Being of Ash","italic":false,"color":"yellow"}]','[{"text":"into an Ash Muggle","italic":false,"color":"yellow"}]']},Enchantments:[{id:"vanishing_curse",lvl:1}]} 1
+clear @a[team=Ash2] minecraft:tipped_arrow{Potion:"minecraft:slowness"} 1
+give @a[team=Ash2] minecraft:tipped_arrow{Potion:"minecraft:slowness",display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Wither Skelleton Arrow","color":"light_purple"},{"text":"]"}]'}} 1
+clear @a[team=Ash1] gunpowder{TEST:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Being of Ash","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Drop this to","italic":false,"color":"yellow"}]','[{"text":"transform into","italic":false,"color":"yellow"}]','[{"text":"the being of ash","italic":false,"color":"yellow"}]']},Enchantments:[{id:"vanishing_curse",lvl:1}]} 1
+give @a[team=Ash1] gunpowder{TEST:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Being of Ash","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Drop this to","italic":false,"color":"yellow"}]','[{"text":"transform into","italic":false,"color":"yellow"}]','[{"text":"the being of ash","italic":false,"color":"yellow"}]']},Enchantments:[{id:"vanishing_curse",lvl:1}]} 1
+#worldsborn
+clear @a[team=worlds] amethyst_shard{tp:1b,display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Warp forwards","color":"yellow"},{"text":"]"}]',Lore:['[{"text":"Drop this item to","italic":false,"color":"yellow"}]','[{"text":"teleport 50 blocks","italic":false,"color":"yellow"}]','[{"text":"in the direction you","italic":false,"color":"yellow"}]','[{"text":"are looking at.","italic":false,"color":"yellow"}]']},Enchantments:[{id:vanishing_curse,lvl:1}]} 1
+give @a[team=worlds] amethyst_shard{tp:1b,display:{Name:'[{"text":"[","italic":false,"color":"light_purple"},{"text":"Warp forwards","color":"yellow"},{"text":"]"}]',Lore:['[{"text":"Drop this item to","italic":false,"color":"yellow"}]','[{"text":"teleport 50 blocks","italic":false,"color":"yellow"}]','[{"text":"in the direction you","italic":false,"color":"yellow"}]','[{"text":"are looking at.","italic":false,"color":"yellow"}]']},Enchantments:[{id:vanishing_curse,lvl:1}]} 1
+
+#ghostborn
+clear @a[team=ghost] magenta_dye{ghost:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Teleport through","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Drop this to teleport","italic":false,"color":"yellow"}]','[{"text":"2 blocks forwards","italic":false,"color":"yellow"}]','[{"text":"or through blocks.","italic":false,"color":"yellow"}]']},Enchantments:[{id:vanishing_curse,lvl:1}]} 1
+give @a[team=ghost] magenta_dye{ghost:1b,display:{Name:'[{"text":"[","italic":false,"color":"yellow"},{"text":"Teleport through","color":"light_purple"},{"text":"]"}]',Lore:['[{"text":"Drop this to teleport","italic":false,"color":"yellow"}]','[{"text":"2 blocks forwards","italic":false,"color":"yellow"}]','[{"text":"or through blocks.","italic":false,"color":"yellow"}]']},Enchantments:[{id:vanishing_curse,lvl:1}]} 1
